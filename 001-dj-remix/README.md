@@ -10,7 +10,11 @@ Starting off easy here to create a simple contract
 
 `bank-of-john-locke.sol` -- doesnt actually send/withdrawl eth but mimics some of the access + mappings. super unsecure but :shrug:
 
-##### some thoughts
+#### some thoughts
   - uint overflow? are protections in solidity by default?
   - multiple owners with an array? how to handle different level of perms? can we do a entitlement sort of thing? (ie turn off/on access on a func by func basis?)
   - what is reentrancy and how can we combat it?
+
+#### links used
+  - https://remix.ethereum.org/
+  - https://youtu.be/M576WGiDBdQ?t=5448 (just the first 30ish minutes)
